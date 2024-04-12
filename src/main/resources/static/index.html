@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body id="container">
+	<div id="tableContainner">			
+	    <div id="responseObject"></div>
+	    
+	    <div id="player1Container">
+		    <div id="player1"> 				    
+	            <img id="card1" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card2" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card3" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card4" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card5" src="https://deckofcardsapi.com/static/img/back.png">
+	        </div>
+	        <div id="textPlayer1">PLAYER 1</div>
+        </div>
+        
+	    <div id="player2Container">
+	        <div id="player2">
+	            <img id="card1" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card2" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card3" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card4" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card5" src="https://deckofcardsapi.com/static/img/back.png">
+	        </div>
+	        <div id="textPlayer2">PLAYER 2</div>
+        </div>
+                
+	    <div id="player3Container">
+	        <div id="player3">
+	            <img id="card1" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card2" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card3" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card4" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card5" src="https://deckofcardsapi.com/static/img/back.png">
+	        </div>
+	        <div id="textPlayer3">PLAYER 3</div>
+        </div>
+        
+        
+	    <div id="player4Container">
+	        <div id="player4">
+	            <img id="card1" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card2" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card3" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card4" src="https://deckofcardsapi.com/static/img/back.png">
+	            <img id="card5" src="https://deckofcardsapi.com/static/img/back.png">
+	        </div>
+	        <div id="textPlayer4">PLAYER 4</div>
+        </div>
+                
+   		<div id="checkWinner">
+        	<img id="alert" src="../../img/alert.png" style="display:none">
+    		<div id="winning" style="display:none" ></div>            	
+			<img id="start" src="../../img/start.png" onclick="start()">
+	        <div id="textWinner" style="display:none">LOADING WINNER</div>
+	        <div id="textCards" style="display:none">LOADING CARDS</div>
+			<img id="loading" src="../../img/loading.gif" style="display:none">
+	 	</div>
+	       	
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url('../../img/background.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    white-space: pre-line;
+}
+
+#tableContainner {
+    color: burlywood;
+    font-family: monospace;
+}
+
+#player1 {	
+    display: flex;
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#player2 {	
+    display: flex;
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 19%;
+    left: 14%;
+    text-align: center;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    transform: rotate(90deg);
+}
+
+#player3 {	
+ 	display: flex;
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#player4 {	
+    display: flex;
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 19%;
+    left: 81%;
+    text-align: center;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    transform: rotate(90deg);
+}
+
+#alert {
+	width: 90%;
+    height: auto;
+}
+
+#start {
+    width: 56%;
+    height: auto;
+}
+ 
+#loading {
+    width: 56%;
+    height: auto;
+}
+
+#textWinner #textCards {
+	position: absolute;
+    top: -15%;
+}
+ 
+#checkWinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 18%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#winning {
+	position: absolute;
+    top: 66%;
+    left: 33%;
+    transform: translate(-33%, -50%);
+    color: white;
+    font-size: 16px;
+    width: 90%;
+    height: auto;
+}
+
+#textPlayer1 {
+	position: absolute;
+	top: 23%;
+	left: 48%;
+    opacity: 45%;
+}
+
+#textPlayer2 {
+    position: absolute;
+    top: 78%;
+    left: 14%;
+    opacity: 45%;
+}
+
+#textPlayer3 {    
+	position: absolute;
+    top: 74%;
+    left: 48%;
+    opacity: 45%;
+}
+
+#textPlayer4 {    
+	position: absolute;
+    top: 78%;
+    left: 81%;
+    opacity: 45%;
+}
+
+#player1Container {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#player2Container {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#player3Container {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#player4Container {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
