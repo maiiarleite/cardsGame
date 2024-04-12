@@ -23,5 +23,6 @@ Vencedor:
 Empate:
 ![empate](https://github.com/MayRegis/cardsGame/assets/38231397/d967892e-250c-40c3-ae77-9c484630393f)
 
-Cartas são fornecidas pela API Deck of Cards
+Cartas são fornecidas pela API Deck of Cards.
+
 Os demais layouts é de minha autoria.
