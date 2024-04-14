@@ -1,6 +1,6 @@
 Descrição da API:
 
-Minha API, desenvolvida com Java e Spring, é um serviço RESTful que consome a API Deck of Cards para criar um jogo de cartas dinâmico e emocionante. Utilizamos tecnologias front-end como JavaScript, CSS e HTML para oferecer uma experiência interativa aos jogadores.
+Minha API, desenvolvida com Java e Spring, é um serviço RESTful que consome a API Deck of Cards para criar um jogo de cartas. Utilizei tecnologias front-end como JavaScript, CSS e HTML para oferecer uma experiência interativa.
 
 Funcionalidades:
 
